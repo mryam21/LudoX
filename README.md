@@ -71,12 +71,13 @@ PORT=8000
 ### Running the App
 
 ```bash
-# Development (with hot reload)
+# Server Side
+cd server
 npm run dev
 
-# Production build
-npm run build
-npm start
+# Client Side
+cd client
+npm run dev
 ```
 
 Then open your browser at `http://localhost:8000`
